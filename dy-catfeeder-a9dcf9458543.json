@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dy-catfeeder",
+  "private_key_id": "a9dcf94585434b1d40b2d6dba9cd647cb80cd787",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCnPmAcCDaG1iI3\ndTF+bhYGQzly+SYcO6yurJzdSUbIM1Ep0HGOlPXSA1Bj5nJdaggWWm+fI+p9OSIS\nodIMySiK05ipat4aBfjk7K5ODK3eDbMRu4Fdp92nxmsyLbc001YDrZZ/aax+S0VL\nPoQq7nKiPtIvK3+jGN0m6gKDdZjUlMUdupewRu9SHhVP8VDgRykZk01HNNACxuIL\nseg2rkMppRYLK85GYMjIz9R8ps37ELe3R/+6Z0wA1Mc2OrCK30/yyTRQeW7yggnT\nfs3HMiOcvCYkbRYqxbBjT47W5UqZvJSH62XMm7jyIZpCS5V4JJqE89pDRKO47wjL\nsWLUIzfjAgMBAAECggEABdyYz8K17onozxrLbkv7d6K5i78Rx+GLjt+768Gaun+Z\n86Y7pKyx5Pd6xNWZ4o5J1Ea9LM28dUEgYZjMXOhcBGmgKyf0uuLEs3lcLp4hJexC\n/3cb9KVijnPU5ABYMIDLvftCkBqrEg4fUqDRTxPmbqtXAJI8ugGwFqITDnp7rc+u\nigeHnoIW3ewqA5lTF5IhZxo5WQJVsQMgHTyva4VuITpQLi6ENWq0HzRLWzqbBGNb\n0/YgigTlLCqwEipFKvAC2RecNjTcttsTKHUGHmPgSazodwGMz1DNA0YqTaW6zJDw\nMR7W+MQTHQu/gt+OZ+V+h5YL3M0iThaw+cbZ+SWwsQKBgQDVZXCdvARAYtem5y8A\nZAXAg9tRSq765YzuutdyC+QZVqP8bx+jC+Pxt7+Y3kmQeRzZ/Mh8jGs3cW6uyLdP\nXdfvl372vnWMqzAZZGpYPq6Cc3BAJGIC3quApDe86TjLoOhSdLjzLWECIWCbazwQ\nXmna61rC3CqkaU7EA7ZmrmFFuwKBgQDIohpQqGVNajNhZWC4CKhHkdwLOqK7OBst\nHiqFTSIGT1Uy9wY38PDMmcQM3ORKNq6hu54a9TVYF36WfmpgtPo/zUCCsItN2+fy\n8B5QX9XqUoLT1+txtczNxhgzlEmXH6SVp94R7XY94Qp9fTmBX0kFsWJR0cJiz5Ib\nfhvHbpJf+QKBgDNb16/O2YMZhud/intgl1XPJlC5VcXCy5mFVGb5X6uNg6g0onue\nV/0MCUvka/YegAgi46m+LevJHCdq3Vt3rYnXf1IpYqc5aDkkRsf4Rg3VdLWrS/9+\n0e4DF/sacnXnwyJdP0ofqNJXcCXXuDwETRvIOy7cyFKLmc5pSlQKMhUTAoGBAL54\nLjVOeMWSwe5/uN9d0KwJS/YZF25XaG1fyww72sZUwFSe8PdgtKn4fIedmNjfqs/9\n9q4vBhJ4U4P5xXHDviOd7tVjVwx2bXBUBuNU6BcJeAw3Wtzbs+/SVR16dJaUwsIU\n2Jz6a5t5LmVN4a7xT7io2udEFJ+L4XBaO3MMhMe5AoGBAJ5BxMrQBGuko3d7omHw\nPH1fsgTjnic6GZaHj4ZDNpVA/qGQgiwL5/M2LAcc1JQbZ4qkl+3ZSzHog7EITn79\nyt2HyA8cmiy+GZpuKPAp+VikNXtLrYA/ZAU+sTJq1/LoRNTfWTLVjBcI0/5jVfzY\nB5+22qOeorINmq2gJlr3L0PG\n-----END PRIVATE KEY-----\n",
+  "client_email": "dy-catfeeder-vision-cloud@dy-catfeeder.iam.gserviceaccount.com",
+  "client_id": "103017936741376070033",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dy-catfeeder-vision-cloud%40dy-catfeeder.iam.gserviceaccount.com"
+}
