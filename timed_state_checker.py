@@ -37,7 +37,6 @@ def send_email(message_body):
 def check_state(event, context):
     current_time = datetime.datetime.now()
     current_time_as_string = str(current_time)
-    print("current time: " + current_time_as_string)
     s3 = boto3.resource("s3")
     s3.Object(bucket_name, file_name).download_file("/tmp/old_state.json")
     file = open("/tmp/old_state.json", "r")
@@ -45,16 +44,13 @@ def check_state(event, context):
     file.close()
     contents_as_object = json.loads(contents)
     timestamp = contents_as_object["timestamp"]
-    print("timestamp: " + timestamp)
     last_email_state = contents_as_object["last_email_state"]
     if last_email_state == "cat_fed":
         timestamp_as_object = datetime.datetime.strptime(timestamp, "%Y-%m-%d %X.%f")
         diff = current_time - timestamp_as_object
-        print(str(diff))
         if diff.seconds / 60 >= 15:
             new_state = {"timestamp": current_time_as_string, "last_email_state": "cat_hungry"}
             file = open("/tmp/new_state.json", "w+")
-            print("Writing new state:\n{0}".format(json.dumps(new_state)))
             file.write(json.dumps(new_state))
             file.close()
             s3.Object(bucket_name, file_name).upload_file("/tmp/new_state.json")
